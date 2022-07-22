@@ -68,3 +68,8 @@ nav {
   color: #6030b1;
   font-weight: bold;
 }
+
+.about-me__picture--mask {
+  display: flex;
+  justify-content: center;
+}
