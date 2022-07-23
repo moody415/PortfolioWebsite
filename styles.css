@@ -28,6 +28,10 @@ li {
   list-style-type: none;
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 /* Navigation Bar */
 
 nav {
@@ -72,4 +76,12 @@ nav {
 .about-me__picture--mask {
   display: flex;
   justify-content: center;
+}
+
+/* About Me */
+
+#about-me {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
