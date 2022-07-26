@@ -55,6 +55,10 @@ li {
   color: #6030b1;
 }
 
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
 /* Navigation Bar */
 
 nav {
@@ -154,4 +158,8 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
+}
+
+.about-me_img {
+  width: 100%;
 }
