@@ -179,8 +179,22 @@ nav {
 /* TECH - STACK */
 
 .language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language {
+  width: 25%;
+}
+
+.language__img--wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  padding: 25px 16px;
+}
+
+.language_list {
+  display: flex;
+  width: 100%;
 }
